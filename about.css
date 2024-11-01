@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.clear {
+    clear: left;
+}
+  
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+ 
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+  
+.btn:hover {
+    opacity: 10;
+}
+  
+.fa {
+    margin-right: 5px;
+}
+
+.menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+  
+header {
+    height: 85px;
+    width: 100%;
+    background-color: #A5DD9B;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+footer img {
+    width: 125px;
+}
+  
+footer p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+  
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #A5DD9B;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+  
+.logo {
+    width: 100px;
+    margin-top: -7px;
+}
+  
+.atas-kiri {
+    float: left;
+    margin-left: -50px;
+
+}
+  
+.atas-kanan {
+    float: right;
+    margin-right: -70px;
+    margin-top: 10px;
+}
+  
+.atas-kanan a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.atas-kanan a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+  
+.bag-tengah {
+    font-family: Garamond;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: #F6F193;
+}
+  
+.gallery {
+    text-align: center;
+    align-items: center;
+    margin-left: 370px;
+    color:#50724a;
+}
+
+.gallery img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:#50724a;
+}
+
+.dalem {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+  
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ff1c60;
+}
+  
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+  
+.message-wrapper h2{
+    margin-top: 95px;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #A5DD9B;
+    cursor: pointer;
+    box-shadow: 0 7px #769e6f;
+}
+  
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+  
+
+  
+@media all and (max-width: 1000px) {
+    .bag-atas h1 {
+    font-size: 32px;
+    }
+    .heading h2 {
+    font-size: 20px;
+    }
+    .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+    }
+}
+@media all and (max-width: 670px) {
+    
+    .btn {
+    width: 100%;
+    }
+    
+    .facebook {
+    margin-bottom: 10px;
+    }
+    
+    .bag-atas {
+    text-align: left;
+    }
+    .atas-kanan {
+    display: none;
+    }
+    .menu-icon {
+    display: block;
+    }
+    .bag-atas h1 {            
+    font-size: 24px;            
+    line-height: 36px;            
+    }            
+    .bag-atas p {            
+    font-size: 14px;            
+    line-height: 20px;            
+    }
+    .lesson {
+    width: 100%;
+    }
+    footer {
+    text-align: center;
+    }
+}
